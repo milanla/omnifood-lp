@@ -11,6 +11,11 @@ html {
   font-family: 'Lato', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 300;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .clearfix { zoom: 1; }
@@ -66,11 +71,11 @@ h1 {
   margin-top: 0;
   margin-bottom: 20px;
   color: #fff;
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.8em;
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 30px;
@@ -86,7 +91,7 @@ h2:after {
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   margin-bottom: 15px;
   letter-spacing: 0;
 }
@@ -99,14 +104,15 @@ h3 {
 }
 
 .box p {
-  font-size: 0.9rem;
+  font-size: 0.9em;
   line-height: 1.45;
 }
 
 /* I C O N S */
 .icon-big {
-  font-size: 3rem;
+  font-size: 3em;
   color: #e67e22;
+  margin-bottom: 10px;
 }
 
 /* B U T T O N S */
@@ -188,7 +194,7 @@ header {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
   padding: 8px 0;
@@ -205,13 +211,9 @@ header {
 }
 
 /* M E A L S  S H O W C A S E */
-.section-meals {
-  padding: 0;
-}
+.section-meals { padding: 0; }
 
-.meals-showcase {
-  width: 100%;
-}
+.meals-showcase { width: 100%; }
 
 .meals-showcase li {
   display: block;
@@ -240,9 +242,7 @@ header {
 }
 
 /*  H O W  I T  W O R K S  */
-.section-steps {
-  background-color: #f4f4f4;
-}
+.section-steps { background-color: #f4f4f4; }
 
 .steps-box:first-child {
   text-align: right;
@@ -255,17 +255,11 @@ header {
   margin-top: 70px;
 }
 
-.app-screen {
-  width: 40%;
-}
+.app-screen { width: 40%; }
 
-.works-step {
-  margin-bottom: 50px;
-}
+.works-step { margin-bottom: 50px; }
 
-.works-step:last-of-type {
-  margin-bottom: 80px;
-}
+.works-step:last-of-type { margin-bottom: 80px; }
 
 .works-step div {
   color: #e67e22;
@@ -274,7 +268,7 @@ header {
   height: 50px;
   width: 50px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   padding: 5px;
   float: left;
   margin-right: 25px;
@@ -285,7 +279,6 @@ header {
   width: auto;
   margin-right: 10px;
 }
-
 
 .btn-app:link,
 .btn-app:visited {
@@ -299,16 +292,14 @@ header {
   margin-bottom: 15px;
 }
 
-.city-feature {
-  margin-bottom: 5px;
-}
+.city-feature { margin-bottom: 5px; }
 
 .icon-small {
   display: inline-block;
   width: 30px;
   text-align: center;
   color: #e67e22;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin-right: 5px;
 
   /* Secret to align text and icon */
@@ -335,7 +326,7 @@ blockquote {
 
 blockquote:before {
   content: "\201c";
-  font-size: 4rem;
+  font-size: 4em;
   display: block;
   position: absolute;
   top: -22%;
@@ -344,7 +335,7 @@ blockquote:before {
 
 cite {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   margin-top: 25px;
 }
 
@@ -357,9 +348,7 @@ cite img {
 }
 
 /* P L A N S  S E C T I O N */
-.section-plans {
-  background-color: #f5f5f5;
-}
+.section-plans { background-color: #f5f5f5; }
 
 .plan-box {
   background-color: #fff;
@@ -386,24 +375,22 @@ cite img {
 }
 
 .plan-price {
-  font-size: 3rem;
+  font-size: 3em;
   margin-bottom: 10px;
   font-weight: 100;
   color: #e67e22;
 }
 
 .plan-price span {
-  font-size: 0.8rem;
+  font-size: 0.3em;
   font-weight: 300;
 }
 
 .plan-price-meal {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
-.plan-box ul li {
-  padding: 5px 0;
-}
+.plan-box ul li { padding: 5px 0; }
 
 /* C O N T A C T  F O R M */
 .contact-form {
@@ -421,9 +408,7 @@ textarea {
   border: 1px solid #ccc;
 }
 
-textarea {
-  height: 100px;
-}
+textarea { height: 100px; }
 
 input[type=checkbox] {
   margin: 10px 5px 10px 0;
@@ -439,12 +424,10 @@ footer {
 
 .footer-nav {
   float: left;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
-.social-links {
-  float: right;
-}
+.social-links { float: right; }
 
 .footer-nav li,
 .social-links li {
@@ -473,13 +456,13 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-  font-size: 1.17rem;
+  font-size: 1.17em;
 }
 
 footer p {
   color: #888;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.7em;
   margin-top: 80px;
 }
 
